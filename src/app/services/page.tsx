@@ -1,5 +1,11 @@
+import { Metadata } from "next";
 import ServicesComponent from "@/components/services";
 import Pricing from "@/components/pricing";
+
+export const metadata: Metadata = {
+  title: "Our Services | City Sunny Services",
+  description: "Explore our comprehensive range of services tailored for your home and lifestyle. From deep cleaning and sneaker washing to private chef and nanny services, we have you covered.",
+};
 
 export default function ServicesPage() {
   return (

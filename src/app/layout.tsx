@@ -8,7 +8,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "City Sunny Services | Your Trusted Everyday Service Partner",
-  description: "We take your stress away so you can focus on what matters most. Cleaning, Shoe Washing, Laundry, Nanny, Room Finder, and Outdoor Cleaning services.",
+  description: "We take your stress away so you can focus on what matters most. Professional Cleaning, Sneaker Wash, Laundry, Nanny, Room Finder, Outdoor Cleaning, and Private Chef services in Tembisa, Clayville, Kempton Park, and Midrand.",
+  keywords: "cleaning services, sneaker wash, laundry, nanny, room finder, outdoor cleaning, private chef, Tembisa, Clayville, Kempton Park, Midrand, South Africa",
+  openGraph: {
+    title: "City Sunny Services",
+    description: "Professional everyday services to make your life easier.",
+    type: "website",
+    locale: "en_ZA",
+    siteName: "City Sunny Services",
+  }
 };
 
 export default function RootLayout({

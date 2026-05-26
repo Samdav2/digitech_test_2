@@ -1,8 +1,6 @@
-import { MapPin } from "lucide-react";
+import { MapPin, Globe } from "lucide-react";
 
 export default function Coverage() {
-  const areas = ["Tembisa", "Clayville", "Kempton Park", "Midrand"];
-
   return (
     <section className="py-24 bg-gray-50 border-t border-gray-100" id="areas">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,21 +15,18 @@ export default function Coverage() {
             </h2>
             
             <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-              {areas.map((area, index) => (
                 <div 
-                  key={index}
-                  className="flex items-center bg-white px-6 py-4 rounded-2xl shadow-md border border-gray-100 hover:border-hot-pink transition-colors hover:-translate-y-1 transform duration-200"
+                  className="flex items-center bg-white px-8 py-5 rounded-2xl shadow-md border border-gray-100 hover:border-hot-pink transition-colors hover:-translate-y-1 transform duration-200"
                 >
-                  <div className="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center mr-4 shrink-0">
-                    <MapPin className="w-5 h-5 text-hot-pink" />
+                  <div className="w-12 h-12 rounded-full bg-pink-100 flex items-center justify-center mr-4 shrink-0">
+                    <Globe className="w-6 h-6 text-hot-pink" />
                   </div>
-                  <span className="text-lg font-bold text-gray-800">{area}</span>
+                  <span className="text-xl font-bold text-gray-800">Available Globally in Every Country</span>
                 </div>
-              ))}
             </div>
             
-            <p className="mt-10 text-gray-500 max-w-2xl mx-auto">
-              We bring our premium services directly to you in these areas. Need service outside these zones? Reach out to us for a custom arrangement.
+            <p className="mt-10 text-gray-500 max-w-2xl mx-auto text-lg">
+              We bring our premium services directly to you, no matter where you are. We are proudly available in every country around the world.
             </p>
           </div>
         </div>

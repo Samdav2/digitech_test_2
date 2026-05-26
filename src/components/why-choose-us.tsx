@@ -17,8 +17,8 @@ export default function WhyChooseUs() {
       bg: "bg-green-100",
     },
     {
-      title: "Quick Response Time",
-      description: "We are available when you need us the most.",
+      title: "24/7 Availability",
+      description: "We operate anytime, even during the night at 1 AM or 2 AM.",
       icon: Clock,
       color: "text-purple-500",
       bg: "bg-purple-100",

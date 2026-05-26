@@ -63,7 +63,7 @@ export default function Hero() {
                     </div>
                     <div 
                       className="rounded-xl h-1/3 min-h-[100px] overflow-hidden shadow-inner flex flex-col justify-center items-center relative group bg-cover bg-center"
-                      style={{ backgroundImage: "url('https://images.unsplash.com/photo-1585386959984-a4155224a1b5?auto=format&fit=crop&q=80&w=600')" }}
+                      style={{ backgroundImage: "url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=600')" }}
                     >
                        <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
                        <span className="text-white font-bold z-10 drop-shadow-md">Shoe Care</span>

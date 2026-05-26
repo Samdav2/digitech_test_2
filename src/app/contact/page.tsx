@@ -27,7 +27,11 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-medium">Call or WhatsApp</p>
-                  <p className="text-lg font-bold text-gray-900">067 974 7656</p>
+                  <p className="text-lg font-bold text-gray-900">
+                    <a href="https://wa.me/27679747656" target="_blank" rel="noopener noreferrer" className="hover:text-hot-pink transition-colors">
+                      067 974 7656
+                    </a>
+                  </p>
                 </div>
               </div>
               
@@ -37,7 +41,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-medium">Operating Hours</p>
-                  <p className="text-lg font-bold text-gray-900">Mon - Sun: 7:00 AM - 6:00 PM</p>
+                  <p className="text-lg font-bold text-gray-900">24/7 Night Service Inclusive for Next Occasion Occurrence</p>
                 </div>
               </div>
               
@@ -47,7 +51,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-medium">Locations Covered</p>
-                  <p className="text-lg font-bold text-gray-900">Tembisa, Clayville, Kempton Park, Midrand</p>
+                  <p className="text-lg font-bold text-gray-900">Service Available Anywhere</p>
                 </div>
               </div>
             </div>
